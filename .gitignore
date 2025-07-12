@@ -1,0 +1,8 @@
+.idea
+.venv
+.ven
+build
+dist
+output
+main.spec
+
