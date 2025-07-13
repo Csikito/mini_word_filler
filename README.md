@@ -46,6 +46,8 @@ mini_word_filler/
 
 ## 🗺️ Guide - GIF
 
+![filler_v1](https://github.com/user-attachments/assets/9b40421c-36b2-4125-8f22-fcc1980b814d)
+
 ## 📄 License
 
 MIT – free to use, modify and distribute.
