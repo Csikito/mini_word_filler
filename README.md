@@ -41,6 +41,7 @@ The program will replace << name >> in the Word templates with Jane Doe, and so 
 ⚙️ 👉 [Download Auto-Filler-GUI](https://github.com/Csikito/mini_word_filler/releases/tag/v2.0)
 
 ## 🗺️ GUI Preview
+<img width="952" height="382" alt="gui" src="https://github.com/user-attachments/assets/b0339c15-c812-4af5-a377-d838463c4ec1" />
 
 ## 📄 License
 
