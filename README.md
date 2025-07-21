@@ -1,34 +1,33 @@
-# Word Template Auto-Filler
+# Word Template Auto-Filler V2.0 (GUI)
 
 📄 A simple Python-based tool for quickly filling out Word templates with Excel data in just a few clicks.
 
 ## 🚀 Features
 
-- Fill multiple `.docx` template files with data from one Excel file
-- Use custom placeholders like `<<name>>` or `<<birth_date>>` in your Word templates
-- Supports both paragraphs and table cells
-- Outputs each generated document into a separate folder (safe from overwriting)
-- No installation needed – one-click `.exe` version available (Windows)
-
-## 📁 Folder Structure
-
-mini_word_filler/
-
-    ├── main.py # Main script
-    ├── input.xlsx # Excel file with key-value pairs
-    ├── templates/ # Folder for .docx template files
-    ├── output/ # Folder for generated files
-
+- ✅ Easy-to-use graphical interface (built with Tkinter)
+- 📄 Select an Excel file and one or more Word templates via file picker
+- 🔁 Automatically fills Word .docx templates using placeholders like <<name>>, <<birth_date>>, etc.
+- 📊 Works with both text and table cells
+- 📂 Output is saved in a separate (auto-created) folder to avoid overwriting
+- 🖱️ One-click .exe version available – no Python installation needed
+- 🔍 Clickable links to open generated Word files directly
+- 🧭 Scrollable output list with file count and open folder button
 
 ## 📥 How to Use
 
-1. Place your Word `.docx` template files into the `templates/` folder.
-2. Create an `input.xlsx` file with:
-   - Column A: template keys (e.g. `name`, `birth_date`)
-   - Column B: labels (optional, just for clarity)
-   - Column C: actual values to fill in
+1. Launch the app:
+    - python gui.py (if running from source)
+    - or double-click Word Template Auto-Filler.exe (no install needed)
+2. Use the interface to:
+    - Select your Excel .xlsx file
+    - Select one or more Word .docx template files
+    - Optionally select an output folder (or leave blank to auto-create)
+    - Click ▶ **Fill Templates**
+3. After generation:
+    - Click on the file names to open generated Word files
+    - Click the 📂 icon to open the output folder
 
-   Example:
+## 🧩 Excel Format
 
    | key         | label            | value        |
    |-------------|------------------|--------------|
@@ -36,15 +35,12 @@ mini_word_filler/
    | birth_date  | Date of Birth    | 1990-01-01   |
    | city        | City of Address  | Budapest     |
 
-3. Run the program:
-   - If using the `.py`: `python main.py`
-   - If using `.exe`: just double-click it
-4. Output will be saved inside `output/` (with time- or versioned subfolders)
 
+The program will replace << name >> in the Word templates with Jane Doe, and so on.
 
-⚙️ 👉 [Download Windows executable (.exe)](https://github.com/Csikito/mini_word_filler/releases/tag/v1.0)
+⚙️ 👉 [Download Auto-Filler-GUI](https://github.com/Csikito/mini_word_filler/releases/tag/v2.0)
 
-## 🗺️ Guide - GIF
+## 🗺️ GUI Preview
 
 ## 📄 License
 
